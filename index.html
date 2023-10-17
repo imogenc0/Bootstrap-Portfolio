@@ -15,7 +15,7 @@
     <!-- nav bar -->
     <!-- navbar from bootstrap -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
+      <div class="navbar container-fluid">
         <a class="navbar-brand" href="#">Imogen Coughlin</a>
         <button
           class="navbar-toggler"
@@ -34,39 +34,15 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#about-section">About</a>
             </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">About</a></li>
-                <li><a class="dropdown-item" href="#">Work</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">contact</a>
-                </li>
-              </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="#work-section">Work</a>
             </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-section">Contact</a>
+            </li>
+            
         </div>
       </div>
     </nav>
@@ -86,65 +62,94 @@
         >
       </p>
     </div>
+
     <!-- work section -->
     <!-- grid cards from Bootstrap -->
     <div class="row row-cols-1 row-cols-md-2 g-4" id="workSection">
       <div class="col">
         <div class="card">
-          <img src="..." class="card-img-top" alt="..." />
+          <img src="assets/horiseon-landing-page.JPG" class="card-img-top" alt="Screenshot of end product from horiseon-landing-page refactor challenge 1" />
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">Horiseon SEO Refactor</h5>
             <p class="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              This was the first project we made in week 1 of the bootcamp. It involved SEO refactoring and reducing the code into simple and semantic html.
             </p>
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card">
-          <img src="..." class="card-img-top" alt="..." />
+          <img src="assets/webportfolio1.JPG" class="card-img-top" alt="Screenshot of end product from project 2 - building a portfolio" />
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">HTML & CSS Portfolio</h5>
             <p class="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              This was the project from week 2 of the bootcamp. This project was made with pure html and css flexboxes and grids.
             </p>
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card">
-          <img src="..." class="card-img-top" alt="..." />
+          <img src="assets/loading page.jpg" class="card-img-top" alt="Loading page to represent a project in progress" />
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">Project 3</h5>
             <p class="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content.
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis accusamus, modi ducimus laudantium tenetur dolorum numquam inventore! Saepe officia fugiat non sint repellendus accusantium. Nam?
             </p>
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card">
-          <img src="..." class="card-img-top" alt="..." />
+          <img src="assets/loading page.jpg" class="card-img-top" alt="Loading page to represent a project in progress" />
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">Project 4</h5>
             <p class="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nemo, odio ea id nesciunt quia enim dolore sint dolor maxime eveniet modi blanditiis amet? Omnis.
             </p>
           </div>
         </div>
       </div>
     </div>
     <!-- skills section -->
-
+    <!-- flush list from bootstrap -->
+    <section class="skillsSection">
+      <div class="skillsTitle container" style="text-align: center;">Skills</div>
+      <div class="row">
+          <div class="col-4 col-lg-3 col-xxl-2">HTML</div>
+          <div class="col-4 col-lg-3 col-xxl-2">CSS</div>
+          <div class="col-4 col-lg-3 col-xxl-2">Bootstrap</div>
+          <div class="col-4 col-lg-3 col-xxl-2">Javascript</div>
+          <div class="col-4 col-lg-3 col-xxl-2">Github</div>
+          <div class="col-4 col-lg-3 col-xxl-2">Git Bash</div>
+          <div class="col-4 col-lg-3 col-xxl-2">VS Code</div>
+          <div class="col-4 col-lg-3 col-xxl-2">Attention to Detail</div>
+          <div class="col-4 col-lg-3 col-xxl-2">Organisation</div>
+          <div class="col-4 col-lg-3 col-xxl-2">Problem Solving</div>
+          <div class="col-4 col-lg-3 col-xxl-2">Emotional Intelligence</div>
+          <div class="col-4 col-lg-3 col-xxl-2">Graphic Design</div>
+        </div>
+      </div>
+    </section>
     <!-- contact -->
-
+    <!-- flexbox container for contact -->
+    <section class="contactSection">
+      <div id="contact-section">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Contact Me</h5>
+            <p class="card-text">For professional collaboration please contact me via email or Linkedin. All other enquiries please email.</p>
+            <a href="https://www.linkedin.com/in/imogen-coughlin-b3a017208/" class="card-link">LinkedIn</a>
+            <a href="mailto:imogencoughlin@gmail.com" class="card-link">Email</a>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- footer -->
+    <div class="footer">
+      <div class="footer-container">
+      
+      </div>
+    </div>
   </body>
 </html>
